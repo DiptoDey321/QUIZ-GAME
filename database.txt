@@ -1,0 +1,14 @@
+CREATE DATABASE if not exists QUIZ;
+use QUIZ ;
+
+CREATE table TEST1(
+    ID int(10) AUTO_INCREMENT UNIQUE,
+    QUESTION varchar(200) NOT NUll,
+    ANSWER varchar(30) NOT NULL,
+    
+    PRIMARY KEY(ID)
+);
+
+insert into TEST1 values ( '', 'What is the capital of Bangladesh?', 'Dhaka' );
+insert into TEST1 values ( '', 'How many legs does a cat have?', 'Four' );
+insert into TEST1 values ( '', 'What is the usual color of sky ?', 'Blue' );
